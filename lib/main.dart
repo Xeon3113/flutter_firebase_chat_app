@@ -402,7 +402,6 @@ class SendButton extends StatelessWidget {
 class Message extends StatelessWidget {
   final String from;
   final String text;
-
   final bool me;
 
   const Message({Key key, this.from, this.text, this.me}) : super(key: key);
